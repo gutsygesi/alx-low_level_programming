@@ -7,7 +7,7 @@
 */
 int main(void)
 {
-	FILE *out=fopen("0-main.c","w");
+	FILE *out=fopen("1-main.o","w");
 	fputs("Hello File",out);
 	fclose(out);
 	return (0);
