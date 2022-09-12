@@ -7,8 +7,8 @@
 */
 int main(void)
 {
-	FILE *out=fopen("1-main.o","w");
-	fputs("Hello File",out);
+	FILE *out=fopen("1-main.c","w");
+	fputs("New file to execute",out);
 	fclose(out);
 	return (0);
 }
