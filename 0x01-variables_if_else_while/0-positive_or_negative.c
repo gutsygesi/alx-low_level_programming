@@ -2,7 +2,11 @@
 #include <time.h>
 #include <stdio.h>
 /* more headers goes there */
-
+/**
+ * main Entry point
+ *
+ * Result 0 (Success)
+ */
 /* betty style doc for function main goes there */
 int main(void)
 {
@@ -13,15 +17,17 @@ int main(void)
 	/* your code goes there */
 	if (n > 0)
 	{
-		printf("is positve: %d\n", n);
+		/* printf to show n value */
+		printf("n is positve %d\n", n);
 	}
-	else if ( n == 0)
+	else if (n == 0)
 	{
-		printf(" is zero: %d\n", n);
+		/* printf to show n value */
+		printf("n is zero %d\n", n);
 	}
-	else 
-	{ 
-		printf(" is negative: %d\n" , n);
+	else
+	{
+		printf("n is negative: %d\n", n);
 	}
 	return (0);
 }
