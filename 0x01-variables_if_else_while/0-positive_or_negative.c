@@ -18,16 +18,16 @@ int main(void)
 	if (n > 0)
 	{
 		/* printf to show n value */
-		printf("n is positve %d\n", n);
+		printf(" %d is positive\n", n);
 	}
 	else if (n == 0)
 	{
 		/* printf to show n value */
-		printf("n is zero %d\n", n);
+		printf(" %d is zero\n", n);
 	}
 	else
 	{
-		printf("n is negative: %d\n", n);
+		printf(" %d is negative\n", n);
 	}
 	return (0);
 }
